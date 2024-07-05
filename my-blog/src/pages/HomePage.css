@@ -1,0 +1,79 @@
+.header {
+    background-color: #f0f0f0;
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .title {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .intro {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    margin-bottom: 10px;
+  }
+  
+  .dreams-title {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .dreams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .dream {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .dream:hover {
+    transform: translateY(-5px);
+  }
+  
+  .dream h4 {
+    margin-bottom: 10px;
+  }
+  
+  .dream p {
+    margin-bottom: 10px;
+  }
+  
+  .dream p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .dream p strong {
+    font-weight: bold;
+  }
+  
+  .dream p:first-of-type {
+    font-style: italic;
+  }
+  
+  .dream p:last-of-type {
+    font-style: italic;
+  }

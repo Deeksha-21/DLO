@@ -1,0 +1,206 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: #000000; /* Dark blue */
+  background-color: #d0b0f8; /* Light blue */
+  background-image: url('https://cdn.pixabay.com/photo/2019/12/29/02/33/snow-4726119_640.jpg');
+  background-size: cover; /* Scale the image to cover the entire background */
+  background-position: center; /* Center the image horizontally and vertically */
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the text */
+  transition: background-color 0.5s; /* Add a transition effect to the background color */
+}
+
+body:hover {
+  background-color: #ccc; /* Change the background color on hover */
+}
+
+button {
+  padding: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5s; /* Add a transition effect to the button background color */
+}
+
+button:hover {
+  background-color: #333; /* Change the button background color on hover */
+}
+
+h3, h4 {
+  margin-bottom: 0;
+  transition: margin-bottom 0.5s; /* Add a transition effect to the margin bottom */
+}
+
+h3:hover, h4:hover {
+  margin-bottom: 16px; /* Change the margin bottom on hover */
+}
+
+nav {
+  border-bottom: 4px solid black;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  transition: border-bottom-color 0.5s; /* Add a transition effect to the border bottom color */
+}
+
+nav:hover {
+  border-bottom-color: #ccc; /* Change the border bottom color on hover */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  transition: padding-top 0.5s, padding-bottom 0.5s; /* Add a transition effect to the padding top and bottom */
+}
+
+nav li:hover {
+  padding-top: 32px;
+  padding-bottom: 32px; /* Change the padding top and bottom on hover */
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 24px 32px;
+  transition: color 0.5s; /* Add a transition effect to the text color */
+}
+
+nav a:hover {
+  color: white; /* Change the text color on hover */
+  background: black; /* Add a background color on hover */
+}
+
+#page-body {
+  max-width: 80%; /* Reduce the width to center the content more */
+  margin: 0 auto; /* Center the page body */
+  padding: 64px 0 0 0;
+  text-align: justify; /* Fill the entire width */
+  transition: padding-top 0.5s; /* Add a transition effect to the padding top */
+}
+
+#page-body:hover {
+  padding-top: 80px; /* Change the padding top on hover */
+}
+
+.article-list-item {
+  text-decoration: none;
+  color: #334455; /* Dark blue */
+  padding: 16px 0 0 0;
+  width: 80%; /* Reduce the width to center the content more */
+  margin: 0 auto; /* Center the article list item */
+  text-align: justify; /* Fill the entire width */
+  transition: padding-top 0.5s; /* Add a transition effect to the padding top */
+}
+
+.article-list-item:hover {
+  padding-top: 24px; /* Change the padding top on hover */
+}
+
+.article-list-item p {
+  padding-bottom: 32px;
+  border-bottom: 2px solid #334455; /* Dark blue */
+  width: 100%; /* Fill the entire width */
+  text-align: justify; /* Fill the entire width */
+  transition: padding-bottom 0.5s; /* Add a transition effect to the padding bottom */
+}
+
+.article-list-item p:hover {
+  padding-bottom: 40px; /* Change the padding bottom on hover */
+}
+
+#add-comment-form {
+  border-bottom: 2px solid #334455; /* Dark blue */
+  padding: 16px;
+  width: 80%; /* Reduce the width to center the content more */
+  margin: 0 auto; /* Center the add comment form */
+  text-align: justify; /* Fill the entire width */
+  transition: border-bottom-color 0.5s; /* Add a transition effect to the border bottom color */
+}
+
+#add-comment-form:hover {
+  border-bottom-color: #ccc; /* Change the border bottom color on hover */
+}
+
+#add-comment-form h3 {
+  margin-bottom: 16px;
+  font-family: 'Arial', sans-serif; /* Dreamy font */
+  color: #334455; /* Dark blue */
+  width: 100%; /* Fill the entire width */
+  text-align: justify; /* Fill the entire width */
+  transition: margin-bottom 0.5s; /* Add a transition effect to the margin bottom */
+}
+
+#add-comment-form h3:hover {
+  margin-bottom: 24px; /* Change the margin bottom on hover */
+}
+
+#add-comment-form input, textarea {
+  display: block;
+  width: 100%; /* Fill the entire width */
+  padding: 8px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  border: 2px solid #334455; /* Dark blue */
+  margin-bottom: 16px;
+  text-align: justify; /* Fill the entire width */
+  transition: border-color 0.5s; /* Add a transition effect to the border color */
+}
+
+#add-comment-form input:hover, textarea:hover {
+  border-color: #ccc; /* Change the border color on hover */
+}
+
+#add-comment-form button {
+  width: 100%; /* Fill the entire width */
+  background-color: #334455; /* Dark blue */
+  color: white;
+  text-align: center; /* Center the text */
+  transition: background-color 0.5s; /* Add a transition effect to the background color */
+}
+
+#add-comment-form button:hover {
+  background-color: #ccc; /* Change the background color on hover */
+}
+
+#upvotes-section button, p {
+  display: inline-block;
+  margin-right: 16px;
+  width: 100%; /* Fill the entire width */
+  text-align: justify; /* Fill the entire width */
+  transition: margin-right 0.5s; /* Add a transition effect to the margin right */
+}
+
+#upvotes-section button:hover, p:hover {
+  margin-right: 24px; /* Change the margin right on hover */
+}
+
+.comment {
+  border-bottom: 2px solid #334455; /* Dark blue */
+  padding: 16px;
+  width: 80%; /* Reduce the width to center the content more */
+  margin: 0 auto; /* Center the comment */
+  text-align: justify; /* Fill the entire width */
+  transition: border-bottom-color 0.5s; /* Add a transition effect to the border bottom color */
+}
+
+.comment:hover {
+  border-bottom-color: #ccc; /* Change the border bottom color on hover */
+}

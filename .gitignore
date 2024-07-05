@@ -1,0 +1,4 @@
+.conda
+.venv
+**/node_modules
+.env
